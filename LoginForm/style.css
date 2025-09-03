@@ -1,0 +1,61 @@
+.container{
+    height: 400px;
+    width: 350px;
+    background-color:navy;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    bottom: 30px;
+    padding-top: 25px;
+}
+
+#btn{
+    background-color:  #ff9bbc;
+    height: 40px;
+    border: 1px solid #ff9bbc;
+    border-radius: 25px; 
+    width: 100px;
+    color: navy;
+    margin-top: 30px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(255, 155, 188);
+    border-radius: 20px;
+    background-color: navy;
+    color: white;
+        
+}
+
+input::placeholder{
+    color: rgb(230, 230, 230);
+}
+
+.message{
+    background-color: rgb(243, 108, 108);
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: greenyellow;
+
+}
